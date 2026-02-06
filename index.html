@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- global container -->
+    <div
+      class="global-container flex flex-col items-center justify-center h-screen bg-[#E6EFF5] px-4 font-[Karla]"
+    >
+      <div
+        class="component flex flex-col justify-center items-center rounded-lg overflow-hidden md:grid md:grid-cols-2"
+      >
+        <section
+          class="community flex flex-col bg-white p-8 justify-start items-start gap-3 order-1 col-span-2 max-w-[635px] md:py-12"
+        >
+          <h1 class="text-teal-500 font-bold text-2xl">Join our community</h1>
+          <h2 class="text-green-500 font-bold text-lg">
+            30-day, hassle-free money <br class="md:hidden" />
+            back guarentee
+          </h2>
+          <p class="text-gray-500 font-normal leading-7 text-base">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </section>
+        <section
+          class="subscription flex flex-col self-stretch bg-teal-500 p-8 justify-start items-start gap-3 order-2"
+        >
+          <h2 class="text-white font-bold text-lg">Monthly Subscription</h2>
+          <div class="flex flex-col">
+            <div class="flex items-center gap-3">
+              <h3 class="font-bold text-3xl text-white">$29</h3>
+              <p class="text-white/50 text-base">per month</p>
+            </div>
+
+            <p class="text-white">Full access for less than $1 a day</p>
+          </div>
+          <button
+            class="px-8 py-4 mt-6 md:mt-16 min-w-full bg-green-500 font-bold text-white rounded-md shadow-lg shadow-black/20 hover:shadow-none"
+          >
+            Sign Up
+          </button>
+        </section>
+        <section
+          class="why flex flex-col self-stretch bg-teal-400 p-8 justify-start items-start gap-3 order-3"
+        >
+          <h2 class="text-white font-bold text-lg">Why Us</h2>
+          <p class="text-white/80 font-normal leading-7 text-base">
+            Tutorials by industry experts <br />
+            Peer & expert code review <br />
+            Coding exercises <br />
+            Access to our Github repos <br />
+            Community forum <br />
+            Flashcards decks <br />
+            New videos every week
+          </p>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
